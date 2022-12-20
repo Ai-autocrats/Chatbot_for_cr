@@ -1,170 +1,172 @@
-     {
-    "intents": [
-        {
-      "tag": "greetings"
-      "patterns" : [
-         "Hi",
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
         "hey",
-         "Hello",
-         "Hey there",
-         "hello",
+        "Hello",
+        "Hey there",
+        "hello",
         "Hello",
         "Namasthe",
         "Namaskara",
         "Konnichiwa",
-        "good morning",
-     ],
-    "responses": [
-       "Hey",
+        "good morning"
+      ],
+      "responses": [
+        "Hey",
         "Namasthe",
         "Good Morning",
         "Konnichiwa",
-"Hey there, how can I help?",
-"hello ,how can i help u?"
+        "Hey there, how can I help?",
+        "hello ,how can i help u?"
       ],
       "context_set": ""
     },
-      {
-      "tag": "whats going on",
-       "patterns": [
-                " what is on your mind ",
-          " what's up ",
-          " what's up today ",
-          " what is going on ",
-       ],
-      "responses":[
+    {
+      "tag": "what-going-on",
+      "patterns": [
+        " what is on your mind ",
+        " what's up ",
+        " what's up today ",
+        " what is going on "
+      ],
+      "responses": [
         "not much",
         "nothing much",
-        "what's with you",
+        "what's with you"
       ],
-      "context_set":" "
+      "context_set": " "
     },
-      {
+    {
       "tag":"goodbye",
-      "patterns":[
+      "patterns": [
         "bye",
+        "bi",
+        "bye bye",
         "goodbye",
-        "bye for now",
+        "bye for now"
       ],
-      "responses":[
+      "responses": [
         "bye bye",
         "See ya later!",
         "Hope you had fun talking to me"
       ],
-       "context_set": ""
+      "context_set": ""
     },
-        {
-            "tag": "physics notes,ppts, pdfs",
-            "patterns": [
-                " mse 1 physics notes please ",
-              " mse 2 physics notes please ",
-              " see physics notes please ",
-                "physics notes",
-                "physics ppt",
-                " physics unit 1 ",
-              " physics unit 2 ",
-              " physics unit 3 ",
-               "phy notes",
-                "phy ppt"
-              
-            ],
-            "responses": [
-                "here you go-physics notes pdf from unit1-3 https://www.griet.ac.in/nodes/Engineering%20Physics%20Notes.pdf"
-              
-               
-            ],
-            "context_set": ""
-        },
-        {
-            "tag": "chemistry pdf,notes",
-            "patterns": [
-               " mse 1 chemistry notes please ",
-              " mse 2 chemistry notes please ",
-              " see chemistry notes please ",
-                "chemistry notes",
-                "chemistry ppt",
-                " chemistry unit 1 ",
-              " chemistry unit 2 ",
-              " chemistry unit 3 ",
-               "chem notes",
-                "chem ppt "
-            ],
-            "responses": [
-                "here you go,chemistry notes from unit 1-5 https://www.iare.ac.in/sites/default/files/lecture_notes/EC-Lecture%20Notes_7.pdf"
-            ],
-            "context_set": ""
-        },
-        {
-            "tag": "basic electronics notes,pdf",
-            "patterns": [
-              "mse 1 basic electronics notes please ",
-              " mse 2 basic electronics notes please ",
-              " see basic electronics notes please ",
-                "basic electronics notes",
-                "basic electronics ppt",
-                "basic electronics unit 1 ",
-              "basic electronics unit 2 ",
-              "basic electronics unit 3 ",
-               "BE notes",
-              "BE ppt "
-            ],
-            "responses": [
-                " here you go,BASIC ELECTRONICS notes from unit 1-3 https://igitsarang.ac.in/assets/documents/coursematerial/basic_electronics_note-2nd_sesmester_btech_compressed_1589976528.pdf"
-              
-            ],
-            "context_set": ""
-        },
-        {
-            "tag": "previous year question papers",
-            "patterns": [
-                "previous year question papers",
-                "last year question paper ",
-                " mse 1 question papers ",
-              " mse 2 question papers ",
-              " see question papers ",
-              "prev qp"
-                
-            ],
-            "responses": [
-                "all the previous year question papers- https://nitte.tk/pages/questions.html"
-              
-            ],
-            "context_set": ""
-        },
-        {
-            "tag": "question bank",
-            "patterns": [
-                "question banks",
-              "physics question bank",
-              "basic electronics question bank",
-              "chemistry question bank",
-              "qn bank"
-            ],
-            "responses": [
-                "The question bank's u require are right here- https://nitte.tk/pages/questions.html"
-              
-            ],
-            "context_set": ""
-        },
-      {
-      "tag": " information of events",
+    {
+      "tag":"physics-notes-ppts-pdfs",
       "patterns": [
-"Can i get some information about current events happening?",
-"What technical events are going to happen this week?",
+        " mse 1 physics notes please ",
+        " mse 2 physics notes please ",
+        " see physics notes please ",
+        "physics notes",
+        "physics ppt",
+        " physics unit 1 ",
+        " physics unit 2 ",
+        " physics unit 3 ",
+        "phy notes",
+        "phy ppt"
       ],
       "responses": [
-        "3 technical events are going to happen this week,they are Robotech,Inquizitive and code relay",
-         
+        "here you go-physics notes pdf from unit1-3 https://www.griet.ac.in/nodes/Engineering%20Physics%20Notes.pdf"
       ],
       "context_set": ""
     },
-    { 
-      "tag" : "Robotech",
+    {
+      "tag":"chemistry-pdf-notes",
+      "patterns": [
+        " mse 1 chemistry notes please ",
+        " mse 2 chemistry notes please ",
+        " see chemistry notes please ",
+        "chemistry notes",
+        "chemistry ppt",
+        " chemistry unit 1 ",
+        " chemistry unit 2 ",
+        " chemistry unit 3 ",
+        "chem notes",
+        "chem ppt "
+      ],
+      "responses": [
+        "here you go,chemistry notes from unit 1-5 https://www.iare.ac.in/sites/default/files/lecture_notes/EC-Lecture%20Notes_7.pdf"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"basic-electronics-notes-pdf",
+      "patterns": [
+        "mse 1 basic electronics notes please ",
+        " mse 2 basic electronics notes please ",
+        " see basic electronics notes please ",
+        "basic electronics notes",
+        "basic electronics ppt",
+        "basic electronics unit 1 ",
+        "basic electronics unit 2 ",
+        "basic electronics unit 3 ",
+        "BE notes",
+        "BE ppt "
+      ],
+      "responses": [
+        " here you go,BASIC ELECTRONICS notes from unit 1-3 https://igitsarang.ac.in/assets/documents/coursematerial/basic_electronics_note-2nd_sesmester_btech_compressed_1589976528.pdf"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"previous-year-question-papers",
+      "patterns": [
+        "previous year question papers",
+        "last year question paper ",
+        " mse 1 question papers ",
+        " mse 2 question papers ",
+        " see question papers ",
+        "prev qp"
+      ],
+      "responses": [
+        "all the previous year question papers- https://nitte.tk/pages/questions.html"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "question-bank",
+      "patterns": [
+        "question banks",
+        "physics question bank",
+        "basic electronics question bank",
+        "chemistry question bank",
+        "qn bank"
+      ],
+      "responses": [
+        "The question bank's u require are right here- https://nitte.tk/pages/questions.html"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "information-of-events",
+      "patterns": [
+        "Can i get some information about current events happening?",
+        "What technical events are going to happen this week?",
+        "tell me about events",
+        "events in college",
+        "events in namamit",
+        "college events",
+        "techincal events",
+        "cultural events"
+      ],
+      "responses": [
+        "3 technical events are going to happen this week,they are Robotech,Inquizitive and code relay"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Robotech",
       "patterns": [
         "What is Robotech?",
         "Who is the organiser of Robotech?",
         "How do I join Robotech?",
-        "I want to join Robotech"
+        "I want to join Robotech",
+        "robotech",
+        "robotech event"
       ],
       "responses": [
         "Robotech is a quiz competition which is being organised by Robotics club.Here's the link to join the event : "
@@ -176,253 +178,272 @@
       "patterns": [
         "What is inquizitive?",
         "Who organise inquizitive? ",
-        "How to join inquizitive event? "
+        "How to join inquizitive event? ",
+        "inquizitive event"
       ],
-      "responses":[
-        "Inquizitive is a basic electronics quiz event organised by ELECSA. Here's the link to join the event - "
+      "responses": [
+        "Inquizitive is a basic electronics quiz event organised by ELECSA. Here's the link to join the event"
       ],
       "context_set": ""
     },
     {
-      "tag": "Code relay",
-      "patterns":[
+      "tag": "Code-relay",
+      "patterns": [
         "What is code relay?",
         "Who organises code relay?",
-        "How to join Code relay?"
+        "How to join Code relay?",
+        "code relay",
+        "code relay event"
       ],
       "responses": [
         "Code relay is a coding competition organised by AI Autocrats.Here's the link to join the event - "
       ],
       "context_set": ""
     },
-      {
-      "tag":"how many class and how long",
-      "patterns":[
+    {
+      "tag": "how-many-class-and-how-long",
+      "patterns": [
         "how many classes do we have?",
         "how long classes will be?",
-        
+        "today's classes",
+        "classes",
+        "classes today"
       ],
-      "responses":[
+      "responses": [
         "we usually have 3 to 4 classes daily",
-        "classes will be of 1 hour max and 45 minutes min",
+        "classes will be of 1 hour max and 45 minutes min"
       ],
       "context_set": ""
     },
     {
-      "tag":"time of class",
-      "patterns":[
+      "tag": "time-of-class",
+      "patterns": [
         "at what time class will start?",
+        "time of class",
+        "class timings",
+        "class time"
         
       ],
-      "responses":[
-        "classes always starts at 9.00am only but for more information you can check online classlink",
+      "responses": [
+        "classes always starts at 9.00am only but for more information you can check online classlink"
       ],
       "context_set": ""
     },
     {
-      "tag":"who- handle-chemistry-class",
-      "patterrns":[
+      "tag": "who-handle-chemistry-class",
+      "patterns": [
         "who will handle chemistry class?",
-      ],
-      "responses":[
-         "chemistry class will be handled by Ramesh sir",
-      ],
-         "context_set": ""
-    },
-    { 
-      "tag":"who-handle-cpp-class",
-    "patterns":[  
-      "who will handle cpp class?",
-    ],
-       "responses":[
-            "cpp will be handled by Kavitha mam",
-       ],
-       "context_set": ""
-    },
-    {
-      "tag":"who-handle-basic electronics -class",
-      "patterns":[
-        "who will handle basic electroincs class?",
-      ],
-       "responses":[
-           "basic electroins is handled by Ramya mam",
-       ],
-       "context_set": ""
-    },
-  
-    {
-      "tag":"attendence or compulsory",
-      "patterns":[
-        "will they take attedence?",
-        "is it compulsory to attend class?"
+        "chemistry class today",
+        "whose chemistry class",
+        "who chem class"
         
       ],
-      "responses":[
+      "responses": [
+        "chemistry class will be handled by Ramesh sir"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "who-handle-cpp-class",
+      "patterns": [
+        "who will handle cpp class?",
+        "cpp class today",
+        "whose cpp class",
+        "who cpp class"
+      ],
+      "responses": [
+        "cpp will be handled by Kavitha mam"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "who-handle-basic-electronics-class",
+      "patterns": [
+        "who will handle basic electroincs class?"
+      ],
+      "responses": [
+        "basic electronics is handled by Ramya mam",
+        "basic electronics class today",
+        "whose basic electronics class",
+        "who basic electronics class"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "attendence-or-compulsory",
+      "patterns": [
+        "will they take attendence?",
+        "is it compulsory to attend class?",
+        "attendance compulsory",
+        "no attendance",
+        "attendance is there?"
+      ],
+      "responses": [
         "attendence will be there",
         "it is compulsory but if you don't want to attend don't :)"
-      ],
-      
+      ]
     },
     {
-      "tag":"where is the link of chemistry class",
-      "patterns":[
-       
-         "can you send link of chemistry class?", 
+      "tag": "where-is-the-link-of-chemistry-class",
+      "patterns": [
+        "can you send link of chemistry class?",
+        "chem class link",
+        "link of chem class",
+        "chemistry classs link please",
+        "chemistry classs link"
       ],
-         "responses":[
-       "link of chemistry class here https://youtu.be/3060fCaVadI"
-         ],
-            "context_set": ""
+      "responses": [
+        "link of chemistry class here https://youtu.be/3060fCaVadI"
+      ],
+      "context_set": ""
     },
     {
-       "tag":"where is the link of cpp class",
-      "patterns":[
-           "can you send link cpp class?"
+      "tag": "where-is-the-link-of-cpp-class",
+      "patterns": [
+        "can you send link cpp class?",
+        "cpp class link",
+        "link of cpp class",
+        "cpp classs link please",
+        "cpp classs link"
       ],
-        "responses":[
-          "link of cpp class here https://youtu.be/irqbmMNs2Bo"
-        ],
-           "context_set": ""
-      
+      "responses": [
+        "link of CPP class here https://youtu.be/irqbmMNs2Bo"
+      ],
+      "context_set": ""
     },
     {
-      "tag":"where is the link of basic electronics class",
-       "patterns":[
-           "can you send link cpp class?",
+      "tag": "link-of-basic-electronics-class",
+      "patterns": [
+        "can you send link BE class?",
+        "BE class link",
+        "link of BE class",
+        "chemistry classs link please",
+        "chemistry classs link"
       ],
-        "responses":[
-            "link of basic electronics here https://yputu.be/Hq_8zewfMpY"
+      "responses": [
+        "link of basic electronics here https://yputu.be/Hq_8zewfMpY"
       ],
-       "context_set": ""
-
+      "context_set": ""
     },
-  {
-"venues": [
     {
       "tag": "java-script-mastery",
-    "patterns": [
+      "patterns": [
         "Where is the java script event conducted?",
         "location for java script event",
         "Could you tell me where the java script mastery event is taking place?",
         "Bro where is that java script thing?",
         "Java script event location please",
-        "Location for the java script mastery event"
-    ],
-    "responses": [
+        "Location for the java script mastery event",
+        "Java script event location "
+      ],
+      "responses": [
         "The \"Java Script Mastery\" event is taking place in Sambhram Auditorium",
         "Sambhram Auditorium",
         "It is about to be conducted in Sambhram Auditorium",
         "You have to go to Sambhram Auditorium"
       ],
-    "context_set": ""
+      "context_set": ""
     },
     {
       "tag": "python-workshop",
       "patterns": [
-          "Where is the Python Workshop taking place?",
-          "Python workshop location pls",
-          "Python workshop location please",
-          "Please tell me where the python workshop is taking place",
-          "Where is that Python thing taking place?",
-          "Where do I attend the Python workshop?"
-        ],
+        "Where is the Python Workshop taking place?",
+        "Python Workshop",
+        "Python workshop location pls",
+        "Python workshop location please",
+        "Please tell me where the python workshop is taking place",
+        "Where is that Python thing taking place?",
+        "Where do I attend the Python workshop?"
+      ],
       "responses": [
-          "The Python Workshop is taking place in CPP lab, 5th floor of CV Raman block",
-          "You can attend it at CPP lab",
-          "Go to CPP lab on the day",
-          "CPP lab"
-        ],
+        "The Python Workshop is taking place in CPP lab, 5th floor of CV Raman block",
+        "You can attend it at CPP lab",
+        "Go to CPP lab on the day",
+        "CPP lab"
+      ],
       "context_set": ""
     },
     {
       "tag": "intoduction-to-artificial-intelligence",
       "patterns": [
-          "Tell me where the AI workshop is taking place",
-          "Where is that AI event held at?",
-          "Artificial intelligence event location",
-          "AI event location",
-          "Can you tell me where the AI event is taking place?",
-          "Artificial intelligence event location please",
-          "Send me the location for introduction to AI"
-        ],
+        "Tell me where the AI workshop is taking place",
+        "Where is that AI event held at?",
+        "AI workshop ",
+        "Artificial intelligence event",
+        "Artificial intelligence event location",
+        "AI event location",
+        "Can you tell me where the AI event is taking place?",
+        "Artificial intelligence event location please",
+        "Send me the location for introduction to AI"
+      ],
       "responses": [
-          "Sure, the \"Introdiction to Artificial Intelligence\" will be held at LC-41",
-          "The event is taking place at LC-41",
-          "LC-41",
-          "You may attend it at LC-41"
+        "Sure, the \"Introdiction to Artificial Intelligence\" will be held at LC-41",
+        "The event is taking place at LC-41",
+        "LC-41",
+        "You may attend it at LC-41"
       ],
       "context_set": ""
     },
-     {
-    "tag":"assignments related to physics",
-   [
-      
-
-"patterns": [
-    "In physics which topic the assignment to be submitted",
-    "the physics assignment should be submitted on?",
-    "physics assignment is mcq or one word (mentions one word sentences or mcq)",
-    "on what day phyics tasks or small assignments is conducted?",
-  "when to submit physics assignment?",
-  "physics assignment when?",
-  "what is physics assignment topic?"
-],
-"responses":[
-  
-   " the assignment should be submitted on the topic FIBER OPTICS ,the assignment should be submitted on 26 december 2022,assignment is one word questions, the physics tasks will be conducted on 1 january 2023 ,websites for task answering is https://instrumentationtools.com"
-],
-"context_set":""
-},
-
-  {
-    "tag":" date of chemistry assignments",
-    
-    "patterns":[
+    {
+      "tag": "assignments-related-to-physics",
+      "patterns": [
+        "In physics which topic the assignment to be submitted",
+        "the physics assignment should be submitted on?",
+        "physics assignment is mcq or one word (mentions one word sentences or mcq)",
+        "on what day phyics tasks or small assignments is conducted?",
+        "when to submit physics assignment?",
+        "physics assignment when?",
+        "what is physics assignment topic?"
+      ],
+      "responses": [
+        " the assignment should be submitted on the topic FIBER OPTICS ,the assignment should be submitted on 26 december 2022,assignment is one word questions, the physics tasks will be conducted on 1 january 2023 ,websites for task answering is https://instrumentationtools.com"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "date-of-chemistry-assignments",
+      "patterns": [
         "on what date the assignments should be submitted (chemistry subject)",
-      "on what date the chemistry assignments should be submitted",
-"when is the last date for the submission of chemistry assignments",
-"schedule of  task date is______ and last date for submission of small assignments of chemistry",
-      "on what day chemistry tasks or small assignments is conducted?",
-  "when to submit chemistry assignment?",
-  "chemistry assignment when?",
-  "what is chemistry assignment topic?"
-    ],
-    
-    "responses":
-    [
+        "on what date the chemistry assignments should be submitted",
+        "when is the last date for the submission of chemistry assignments",
+        "schedule of  task date is and last date for submission of small assignments of chemistry",
+        "on what day chemistry tasks or small assignments is conducted?",
+        "when to submit chemistry assignment?",
+        "chemistry assignment when?",
+        "what is chemistry assignment topic?"
+      ],
+      "responses": [
         "topic is corrosion chemistry and chemical bonding, last date is 27 december 2022 ,the task will be held on 31 dec 2022 and submission of all small assignments in 1 jan 2023"
-    ],
-    "context_set":""
-},
-{
-    "tag":"assignments of basic electronics",
-    "patterns":[
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "assignments-of-basic-electronics",
+      "patterns": [
         "basic electronics assignments should be submitted on topic",
         "last date for submission",
-       "on what date the assignments should be submitted (basic electronics subject)",
-      "on what date the basic electronics assignments should be submitted",
-"when is the last date for the submission of basic electronics assignments",
-"schedule of  task date is______ and last date for submission of basic electronics small assignments",
-      "on what day basic electronics tasks or small assignments is conducted?",
-  "when to submit basic electronics assignment?",
-  "basic electronics assignment when?",
-  "what is basic electronics assignment topic?"
-    ],
-    "responses":
-    [
+        "on what date the assignments should be submitted (basic electronics subject)",
+        "on what date the basic electronics assignments should be submitted",
+        "when is the last date for the submission of basic electronics assignments",
+        "schedule of  task date is and last date for submission of basic electronics small assignments",
+        "on what day basic electronics tasks or small assignments is conducted?",
+        "when to submit basic electronics assignment?",
+        "basic electronics assignment when?",
+        "what is basic electronics assignment topic?"
+      ],
+      "responses": [
         "topic is bjt and mosfets,submission of all small assignments  date is on 2 january 2023"
-    ],
-  "context_set": ""
-},
-  
-  {
-      "tag":"set-remainder",
-      "patterns":[
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "set-remainder",
+      "patterns": [
         "remind me to do the event",
         "can you set a remainder for the event?",
-        "remind me to complete the event",
+        "remind me to complete the event"
       ],
-      "responses":[
+      "responses": [
         "sure why not",
         "setting remainder for event",
         "remainder for event set",
@@ -431,27 +452,27 @@
       "context_set": ""
     },
     {
-      "tag":"time of event",
-      "patterns":[
+      "tag": "time-of-event",
+      "patterns": [
         "at what time will event start?",
         "at what time will event end?",
         "what are the timings of the event?",
         "can you give me the deadline for the event?"
       ],
-      "responses":[
+      "responses": [
         "the event timings are 11:10 - 12:05 pm",
         "the submission begins from 17 Dec 5:30 pm and the submission ends @ 21 Dec 5:30 pm"
       ],
       "context_set": ""
     },
     {
-      "tag":"is remainder set ",
-      "patterrns":[
+      "tag": "is-remainder-set",
+      "patterns": [
         "is the remainder for the event set??",
-         "i would like to confirm if the remainder for the event is set",
-         "can you confirm that the remainder is set for tomorrow?",
+        "i would like to confirm if the remainder for the event is set",
+        "can you confirm that the remainder is set for tomorrow?"
       ],
-      "responses":[
+      "responses": [
         "Yes, the remainder is set for tomorrow",
         "the remainder for the event is set",
         "failed to set remainder for the event. Try again",
@@ -460,133 +481,125 @@
       "context_set": ""
     },
     {
-      "tag":"change in remainder",
-      "patterns":[
+      "tag": "change-in-remainder",
+      "patterns": [
         "will they extend the deadline?",
         "has the deadline been extended?",
         "is there any changes to the existing schedule?",
         "are we still doing this project on 17 Dec?"
       ],
-      "responses":[
+      "responses": [
         "there are no changes in the schedule",
         "as it stands, the project seminar is going to happen on the same date as mentioned before",
         "no changes in the schedule have been noted"
       ],
       "context_set": ""
     },
-   
-  {
-            "tag": "from when does the flc registrations open",
-            "patterns": [
-                " what is the last date to register for finite loop club",
-                " what's the date when flc registrations open",
-                " when will finite loop club registrations open ",
-                " by what time should we do the finite loop club registrations ",
-                " are the registrations open now for finite loop club ",
-                " from when will the registrations open for flc",
-                " when will finite loop club  registration end ",
-                " what's the date and time when finite loop club  registrations will open ",
-              "flc registration when?"
-                
-            ],
-            "responses": [
-                " finite loop club registrations will be announced shortly in flc's instagram page"
-            ],
-             "context_set": "" 
-        },
-   "tag": "from when does the club registrations open",
-            "patterns": [
-                " what is the last date to register for the club",
-                " what's the date when club registrations open",
-                " when will  club registrations open ",
-                " by what time should we do the club registrations ",
-                " are the registrations open now for club ",
-                " from when will the registrations open for the club",
-                " when will  club  registration end ",
-                " what's the date and time when club  registrations will open ",
-              "club registration when?"
-                
-            ],
-            "responses": [
-                "  club registrations will be announced shortly in flc's instagram page",
-            ],
-             "context_set": "" 
-        },
     {
-             "tag": "when and where is the ripple factor event",
-            "patterns": [
-                " do you have any idea on when and where is the ripple factor event ",
-                " when is the ripple factor event ",
-                " where is the ripple factor event ",
-                " what's the time when the event starts ",
-                " by what time will the event get over ",
-                " at what time does the event start "
-                ],
-            "responses": [
-                  " hey there,the event will be at student activity centre on saturday ,the event will start at break time  the event will get over soon "
-            ],
-             "context_set": "" 
-        },
- {
-    "tag": "thanks",
-            "patterns": [
-                "Amazing service",
-                "Cool. Thank you. I really like what you're doing.",
-                "I appreciate it",
-                "I appreciate your help",
-                "I thank you",
-                "It's appreciated",
-                "Thanks for the help!",
-                "alright thank you",
-                "alright thanks",
-                "appreciate all the help",
-                "appreciate your help",
-                "awesome service",
-                "cheers",
-                "good thanks",
-                "great thank you",
-                "many thanks",
-                "much appreciated",
-                "much thanks",
-                "nice thank you",
-                "no thank you that's all",
-                "ok thx",
-                "perfect thank you",
-                "so nice of you",
-                "sure, np. thanks!",
-                "terrific thank you",
-                "thank you",
-                "thank you again",
-                "thank you for your help",
-                "thank you my friend",
-                "thank you so much",
-                "thank you that will be all",
-                "thanks",
-                "thanks a lot",
-                "thanks again",
-                "thanks buddy",
-                "thanks for your help",
-                "thanks love",
-                "thanks so much",
-                "thanx",
-                "that's appreciated",
-                "very good thank you",
-                "well thank you",
-                "well thanks",
-                "you helped a lot thank you"
-            ],
-            "responses": [
-                "no problem, thats waht I am meant for",
-                "if you like me, please provide a feedback",
-                "Thanks, you are also quite awesome"
-            ],
-            "context_set": ""
-        },
-
-  
-    
-    
-    ]
-  
-
+      "tag": "from-when-does-the-flc-registrations-open",
+      "patterns": [
+        " what is the last date to register for finite loop club",
+        " what's the date when flc registrations open",
+        " when will finite loop club registrations open ",
+        " by what time should we do the finite loop club registrations ",
+        " are the registrations open now for finite loop club ",
+        " from when will the registrations open for flc",
+        " when will finite loop club  registration end ",
+        " what's the date and time when finite loop club  registrations will open ",
+        "flc registration when?"
+      ],
+      "responses": [
+        "finite loop club registrations will be announced shortly in flc's instagram page"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "from-when-does-the-club-registrations-open",
+      "patterns": [
+        " what is the last date to register for the club",
+        " what's the date when club registrations open",
+        " when will  club registrations open ",
+        " by what time should we do the club registrations ",
+        " are the registrations open now for club ",
+        " from when will the registrations open for the club",
+        " when will  club  registration end ",
+        " what's the date and time when club  registrations will open ",
+        "club registration when?"
+      ],
+      "responses": [
+        "  club registrations will be announced shortly in flc's instagram page"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "when-and-where-is-the-ripple-factor-event",
+      "patterns": [
+        " do you have any idea on when and where is the ripple factor event ",
+        " when is the ripple factor event ",
+        " where is the ripple factor event ",
+        " what's the time when the event starts ",
+        " by what time will the event get over ",
+        " at what time does the event start "
+      ],
+      "responses": [
+        " hey there,the event will be at student activity centre on saturday ,the event will start at break time  the event will get over soon "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Amazing service",
+        "Cool. Thank you. I really like what you're doing.",
+        "I appreciate it",
+        "I appreciate your help",
+        "I thank you",
+        "It's appreciated",
+        "Thanks for the help!",
+        "alright thank you",
+        "alright thanks",
+        "appreciate all the help",
+        "appreciate your help",
+        "awesome service",
+        "cheers",
+        "good thanks",
+        "great thank you",
+        "many thanks",
+        "much appreciated",
+        "much thanks",
+        "nice thank you",
+        "no thank you that's all",
+        "ok thx",
+        "perfect thank you",
+        "so nice of you",
+        "sure, np. thanks!",
+        "terrific thank you",
+        "thank you",
+        "thank you again",
+        "thank you for your help",
+        "thank you my friend",
+        "thank you so much",
+        "thank you that will be all",
+        "thanks",
+        "thanks a lot",
+        "thanks again",
+        "thanks buddy",
+        "thanks for your help",
+        "thanks love",
+        "thanks so much",
+        "thanx",
+        "that's appreciated",
+        "very good thank you",
+        "well thank you",
+        "well thanks",
+        "you helped a lot thank you"
+      ],
+      "responses": [
+        "no problem, thats what I am meant for",
+        "if you like me, please provide a feedback",
+        "Thanks, you are also quite awesome"
+      ],
+      "context_set": ""
+    }
+  ]
 }
