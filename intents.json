@@ -147,10 +147,32 @@
         "qn bank",
         "be qn bank",
         "chem qn bank",
-        "phy qn bank",
+        "phy qn bank"
       ],
       "responses": [
         "The question bank's u require are right here- https://nitte.tk/pages/questions.html"
+      ],
+      "context_set": ""
+    },
+
+     {
+      "tag": "exams",
+      "patterns": [
+        "when are the exams",
+        "exams?",
+        "when is mse",
+        "exam dates",
+        "mse1 physics exam date",
+        "physics exam timetable",
+        "phy exam date",
+        "phy exam when",
+        "when is physics exam",
+        "when is physics exam"
+      ],
+      "responses": [
+        "here are the dates :",
+        "the dates are",
+        "these are the dates"
       ],
       "context_set": ""
     },
@@ -165,10 +187,20 @@
         "college events",
         "techincal events",
         "cultural events",
-        "events"
+        "events",
+        "Events?",
+        "Any technical events?",
+        "Tech events?",
+        "Event organisation?",
+        "What events are being organised?" ,
+        "How many technical events are going to happen this week?",
+        "Can i get some information about current events happening?",
+        "What technical events are going to happen this week?"
       ],
       "responses": [
-        "3 technical events are going to happen this week,they are Robotech,Inquizitive and code relay"
+        "3 technical events are going to happen this week,they are Robotech,Inquizitive and code relay",
+        "Robotech,Inquizitive and code relay are the events for this week",
+        "yup 3 events this week:Robotech,Inquizitive and code relay "
       ],
       "context_set": ""
     },
@@ -180,10 +212,26 @@
         "How do I join Robotech?",
         "I want to join Robotech",
         "robotech",
-        "robotech event"
+        "robotech event",
+        "Robo",
+        "Joining link?",
+        "Robo quiz?",
+        "Robotech",
+        "Any event from robotics club?",
+        "Which event is being organised by Robotics club?",
+        "What is Robotech?",
+        "Who is the organiser of Robotech?",
+        "How do I join Robotech?",
+        "When is robotech?",
+        "I want to join Robotech",
+        "Can i get the link to join Robotech?"
       ],
       "responses": [
-        "Robotech is a quiz competition which is being organised by Robotics club.Here's the link to join the event : "
+        "Robotech is a quiz competition which is being organised by Robotics club.Here's the link to join the event :https://docs.google.com/forms/d/e/1FAIpQLScn-B5Kh4vWnTKa9NAAq25rFSeI4LFO99pVIxo5KD3Yaawk-g/viewform?usp=sf_link ",
+        "A fun quiz competition which is being organised by Robotics club.Here's the link to join the event :https://docs.google.com/forms/d/e/1FAIpQLScn-B5Kh4vWnTKa9NAAq25rFSeI4LFO99pVIxo5KD3Yaawk-g/viewform?usp=sf_link",
+        "A fun quiz competition which is being organised by Robotics club.follow robotics club insta page for more updates and info",
+        "Robotech is a quiz competition which is being organised        on 19.01.2023 by Robotics club.Here's the link to join the event: https://docs.google.com/forms/d/e/1FAIpQLScn-B5Kh4vWnTKa9NAAq25rFSeI4LFO99pVIxo5KD3Yaawk-g/viewform?usp=sf_link"
+        
       ],
       "context_set": ""
     },
@@ -193,10 +241,23 @@
         "What is inquizitive?",
         "Who organise inquizitive? ",
         "How to join inquizitive event? ",
-        "inquizitive event"
+        "inquizitive event",
+        "Basic electronics quiz?",
+        "When is inquizitive?",
+        "Link to join",
+        "EC quiz?",
+        "Inquizitive",
+        "What event is being organised by ELECSA?",
+        "Can i get the link to join Inquizitive?",
+        "What is inquizitive?",
+        "Who organises inquizitive? ",
+        "How to join inquizitive event? ",
+        "Is inquizitive a quiz competition?",
+        "I want to join Inquizitive"
       ],
       "responses": [
-        "Inquizitive is a basic electronics quiz event organised by ELECSA. Here's the link to join the event"
+        "Inquizitive is a basic electronics quiz event organised by ELECSA. Here's the link to join the event-https://forms.gle/H2bvPu81Sg5H1WZy8",
+         "Inquizitive is a basic electronics quiz event organised on 21.01.2023 by ELECSA. Here's the link to join the event - https://forms.gle/H2bvPu81Sg5H1WZy8"
       ],
       "context_set": ""
     },
@@ -207,10 +268,23 @@
         "Who organises code relay?",
         "How to join Code relay?",
         "code relay",
-        "code relay event"
+        "code relay event",
+        "Coderelay",
+        "Where to join?",
+        "Coding?",
+        "When is coderelay?",
+        "Coding competition?",
+        "Relay for code?",
+        "Can i get the link to join Coderelay?",
+        "Can i get some info about coding competition?",
+        "What is code relay?",
+        "Who organises code relay?",
+        "How to join Code relay?",
+        "I want to join coderelay"
       ],
       "responses": [
-        "Code relay is a coding competition organised by AI Autocrats.Here's the link to join the event - "
+        "Code relay is a coding competition organised by AI Autocrats.Here's the link to join the event - ",
+        "Code relay is a coding competition organised on 17.01.2023  by AI Autocrats.Here's the link to join the event - https://forms.gle/tLaPGAHiVEgEkyUk8"
       ],
       "context_set": ""
     },
@@ -221,11 +295,12 @@
         "at what time class start?",
         "at what time class will end?",
         "break time?",
-        "at what time lunch break will be?",
+        "at what time lunch break will be?"
       ],
         "responses":[
           "Everyday classes start at 9.00 am,break time is at 10.50am and lunch break starts at 1pm to 1.55pm and class will end 3.40pm."
         ],
+      "context_set": ""
     },
     
     {
@@ -240,7 +315,9 @@
       ],
       "responses": [
         "we usually have 3 to 4 classes daily",
-        "classes will be of 1 hour max and 45 minutes min"
+        "classes will be of 1 hour max and 45 minutes min",
+        "only half day today"
+        
       ],
       "context_set": ""
     },
@@ -347,10 +424,17 @@
         "chem class link",
         "link of chem class",
         "chemistry classs link please",
-        "chemistry classs link"
+        "chemistry classs link",
+        "chem class youtube videos",
+        "chemistry youtube sessions",
+        "chemistry youtube videos",
+        "i cant understand chemistry",
+        "chemistry is so difficult",
+        "chem is tough"
       ],
       "responses": [
-        "link of chemistry class here https://youtu.be/3060fCaVadI"
+        "Hey,making chemistry easy for ya,link of chemistry class here https://youtu.be/3060fCaVadI",
+        "Hey peep,here are some chemistry youtube videos--https://www.youtube.com/watch?v=xGMMc0YqqlE&list=PLLf6O8XdGj03A-DN-biV_FBtld2fs2jh_"
       ],
       "context_set": ""
     },
@@ -361,10 +445,20 @@
         "cpp class link",
         "link of cpp class",
         "cpp classs link please",
-        "cpp classs link"
+        "cpp classs link",
+        "c programmming classs link",
+        "cpp class youtube videos",
+        "cpp youtube sessions",
+        "cpp youtube videos",
+        "i cant understand cpp",
+        "cpp is so difficult",
+        "cpp is tough"
       ],
+      
       "responses": [
-        "link of CPP class here https://youtu.be/irqbmMNs2Bo"
+        "Hey,making CPP easy for ya,link of CPP class here https://youtu.be/irqbmMNs2Bo",
+        "Hey peep,here are some cpp youtube videos--https://www.youtube.com/watch?v=irqbmMNs2Bo"
+        
       ],
       "context_set": ""
     },
@@ -374,11 +468,20 @@
         "can you send link BE class?",
         "BE class link",
         "link of BE class",
-        "chemistry classs link please",
-        "chemistry classs link"
+        "BE class link please",
+        "Electronics class link",
+        "basic electronics classs link",
+        "basic electronics class youtube videos",
+        "be youtube sessions",
+        "basic electronics youtube videos",
+        "i cant understand basic electronics",
+        "basic electronics is so difficult",
+        " basic electronics is tough"
       ],
       "responses": [
-        "link of basic electronics here https://yputu.be/Hq_8zewfMpY"
+        "Hey,making chemistry easy for ya, link of basic electronics here https://yputu.be/Hq_8zewfMpY",
+        "Hey peep,here are some Basic electronics youtube videos--https://www.youtube.com/watch?v=icrAf1us2IQ&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy"
+        
       ],
       "context_set": ""
     },
@@ -391,7 +494,10 @@
         "Bro where is that java script thing?",
         "Java script event location please",
         "Location for the java script mastery event",
-        "Java script event location "
+        "Java script event location ",
+        "javascript event",
+        "js event",
+        "java event"
       ],
       "responses": [
         "The \"Java Script Mastery\" event is taking place in Sambhram Auditorium",
@@ -467,6 +573,8 @@
         "on what day chemistry tasks or small assignments is conducted?",
         "when to submit chemistry assignment?",
         "chemistry assignment when?",
+        "CHEM ASSIGNMENT",
+        "chemistry assignment",
         "what is chemistry assignment topic?"
       ],
       "responses": [
@@ -596,6 +704,9 @@
         " where is the ripple factor event ",
         " what's the time when the event starts ",
         " by what time will the event get over ",
+        "ripple factor event",
+        "rfc event",
+        "rfc event when",
         " at what time does the event start "
       ],
       "responses": [
@@ -645,6 +756,7 @@
         "thanks love",
         "thanks so much",
         "thanx",
+        "thanku",
         "that's appreciated",
         "very good thank you",
         "well thank you",
@@ -656,6 +768,7 @@
         "if you like me, please provide a feedback",
         "Thanks, you are also quite awesome"
       ],
+      
       "context_set": ""
     }
   ]
