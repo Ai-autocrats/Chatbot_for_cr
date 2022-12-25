@@ -5,6 +5,7 @@ import numpy as np
 import pickle
 import random
 from tensorflow.keras.models import load_model
+import os
 
 nltk.download('punkt')
 nltk.download('wordnet')
@@ -108,7 +109,7 @@ def ChatBot(query):
   return Bot_Response
 
 
-# os.system('cls')
+# os.system('clear')
 # while True:
 #     x = input('user : ')
 #     if x.lower() in ['exit', 'quit', 'close']:
@@ -123,3 +124,18 @@ def fliterSubject(string):
       if string.find(val) != -1:
         return key
   return ""
+
+
+def update(db, cname, name, field, value):
+  if cname == "examdates":
+    try:
+      result = db.examdates.update_one({"name": name}, {"$set": {field: value}})
+      return f"{field} updated tp {value} !!"
+    except:
+      return "Erorr"
+
+
+def getDetails(db, cname, name, field):
+  if cname == "examdates":
+    value = dict(db.examdates.find_one({"name": name}))[field]
+    return value
