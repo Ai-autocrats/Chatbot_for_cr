@@ -176,6 +176,35 @@
       ],
       "context_set": ""
     },
+     {
+      "tag": "Moodle-link",
+      "patterns": [
+        "Can i get moodle link?",
+        "Shall i get moodle link",
+        "Will you send moodle link? ",
+        "Moodle link?",
+        "Where do i attend task?",
+        "I want url of moodle",
+        "Where is link for moodle?",
+        "Please,send me moodle link",
+        "Send moodle link",
+        "Share moodle link",
+        "Moodle?",
+        "Moodle link please",
+        "I want moodle link",
+        "Moddle",
+        "Moddle link",
+        "Moooodle",
+        "Moddal"
+       ],
+      "responses": [
+        "Here you go, http://guru.nmamit.in/ ",
+        "There you go - http://guru.nmamit.in/",
+        "there it is- http://guru.nmamit.in/"
+      ],
+      "contexts_set":""
+    },
+   
     {
       "tag": "information-of-events",
       "patterns": [
