@@ -56,6 +56,106 @@
       "context_set": ""
     },
     {
+      "tag": "contact_details",
+      "patterns": [
+        "Can you provide the contact details for the professor?", 
+        "I need to contact the professor, do you have their information?",
+        "I need to contact this professor. Can you give me their details?",
+        "I need the contact details of this professor",
+        "I want contact details for this professor",
+        "give me contact details for this professor",
+        "i need contact info for this professor",
+        "what is this professor's contact info?",
+         "professor details please",
+        "prof ph no",
+        "professor's phone number",
+        "professor's contact number",
+        "professor mail details please",
+        "prof email address",
+        "professor's mail add ",
+        "professor's email address",
+         "I need contact information of this professor"
+      ],
+      "responses": [
+        "Certainly, the professor's email address is prof@nitte.edu.in and their office phone number is 7865431212",
+        "Sure, here are the details- Email Address: prof@nitte.edu.in  Contact Number: 7865431212",
+        "Here you go- Email Address: prof@nitte.edu.in  Contact Number: 7865431212",
+        "Sure, Here's the contact info- Email Address: prof@nitte.edu.in  Contact Number: 7865431212"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "free_hours",
+      "patterns": [
+        "When are the professor's free hours?", 
+        "I need to meet with the professor, when is he available?",
+        "I need to meet with the professor, when is she available?",
+        "When is the professor free?",
+        "When can I go meet this Professor?",
+        "when is this professor free?",
+        "When is the professor free?",
+        "When can I go meet this Professor?",
+        "professor's free time",
+        "when is professor free?",
+        "prof free",
+        "when can i meet professor?"
+
+      ],
+      "responses": [
+        "The professor's free hours are from 9am to 11am.",
+        "The professor is free today after 3:40pm.",
+        "The professor is free today only during the lunch hours.",
+        "Sorry, the professor seems to be busy today.",
+        "Sorry, it looks like the Professor has no free time today."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "staff room location",
+      "patterns": [
+        "Where is the professor's staff room?", 
+        "What is the location of the professor's staff room?",
+        "Where can I find this Professor's staff room?",
+        "In which building is this Professor's staff room?",
+        "In which block is this Professor's staff room?",
+        "In which floor is this Professor's staff room?",
+        "where is this sir's staff room?",
+         "profs staff room location",
+        "staff room location",
+        "where is staff room",
+        "staff room"
+
+      ],
+      "responses": [
+        "The professor's staff room is in SR 31 (3rd Floor) of the CV Raman Block",
+        "The Professor's cabin is in front of HoD's Office  at 4th Floor in the APJ Block"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "research interests",
+      "patterns": [
+        "What does the professor research?", 
+        "What are the professor's research interests?",
+        "What is the Professor's area of reasearch?",
+        "In which field is the Professor currently reseraching in?",
+        "give me info on professor's research topic",
+        "What topic does the professor conduct research on?",
+         "professor's research field",
+        "professors research",
+        "research field",
+        "research"
+
+      ],
+      "responses": [
+        "The professor's research interests include Machine Learning and Natural Language Processing",
+        "The Professor's current research area is Artificial Intelligence & Machine Learning",
+        "The Professor conducts research in the field of Quantum Computing"
+      ],
+      "context_set": ""
+    },
+    
+    {
       "tag":"physics-notes-ppts-pdfs",
       "patterns": [
         " mse 1 physics notes please ",
