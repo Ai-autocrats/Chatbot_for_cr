@@ -2,3 +2,6 @@ numpy
 keras
 nltk
 tensorflow
+Flask
+pymongo[srv]
+Flask-PyMongo
