@@ -56,7 +56,7 @@
       "context_set": ""
     },
     {
-      "tag": "contact_details",
+      "tag": "contact-details",
       "patterns": [
         "Can you provide the contact details for the professor?", 
         "I need to contact the professor, do you have their information?",
@@ -85,7 +85,7 @@
       "context_set": ""
     },
     {
-      "tag": "free_hours",
+      "tag": "free-hours",
       "patterns": [
         "When are the professor's free hours?", 
         "I need to meet with the professor, when is he available?",
@@ -111,7 +111,7 @@
       "context_set": ""
     },
     {
-      "tag": "staff room location",
+      "tag": "staff-room-location",
       "patterns": [
         "Where is the professor's staff room?", 
         "What is the location of the professor's staff room?",
@@ -133,7 +133,7 @@
       "context_set": ""
     },
     {
-      "tag": "research interests",
+      "tag": "research-interests",
       "patterns": [
         "What does the professor research?", 
         "What are the professor's research interests?",
@@ -485,7 +485,48 @@
       ],
       "context_set": ""
     },
-    
+    {
+      "tag":"Maths-Math-mathematics-cls-class",
+      "patterns":[
+        "what about maths class?",
+        "what about math class?",
+        "when do we have math class?",
+         "what about mathematics class?",
+        "who will handle maths class?",
+        "is there maths class today?",
+        "who will handle math class?",
+        "who will handle mathematics class?",
+        "who teach us maths?",
+        "maths class who",
+        "maths class"
+        
+         ],
+        "responses":[
+          "we have maths class on every monday,wednesday and saturday and it is handled by Bhavya mam",
+          "Our maths class will be handled by Bhavya mam,it will be on every monday,wednesday and saturday"
+          ],
+          "context_set": ""
+    },
+    {
+      "tag":"biology-bio-cls",
+      "patterns":[
+        "what about biology class?",
+        "what about bio class?",
+        "who will handle biology class?",
+        "who will handle bio class?",
+        "is there biology class today?",
+        "is there bio class today?",
+        "who will handle bio class?",
+        "who will handle biology  class?",
+        "bio who",
+        "who is bio today"
+         ],
+        "responses":[
+          "we have biology class once in a week and you can attend it whenever you wish,and you have to attend weekly quiz  and it is handled by Arman sir",
+          "Arman sir is handling bio today @ 2pm "
+        ],
+          "context_set": ""
+    },
     {
       "tag": "who-handle-cpp-class",
       "patterns": [
@@ -526,9 +567,9 @@
       ],
       "responses": [
         "basic electronics is handled by Ramya mam",
-       "we have BE class on every monday,tuesday and friday and it is               handled by Ramya Mam ",
+       "we have BE class on every monday,tuesday and friday and it is handled by Ramya Mam ",
         "basic electronics is handled by Shubha mam",
-       "we have BE class on every monday,tuesday and friday and it is               handled by Shubha Mam "
+       "we have BE class on every monday,tuesday and friday and it is  handled by Shubha Mam "
       ],
       "context_set": ""
     },
@@ -685,7 +726,8 @@
         "on what day phyics tasks or small assignments is conducted?",
         "when to submit physics assignment?",
         "physics assignment when?",
-        "what is physics assignment topic?"
+        "what is physics assignment topic?",
+        "phy assignment"
       ],
       "responses": [
         " the assignment should be submitted on the topic FIBER OPTICS ,the assignment should be submitted on 26 december 2022,assignment is one word questions, the physics tasks will be conducted on 1 january 2023 ,websites for task answering is https://instrumentationtools.com"
@@ -803,7 +845,9 @@
         "flc registration when?"
       ],
       "responses": [
-        "finite loop club registrations will be announced shortly in flc's instagram page"
+        "finite loop club registrations will be announced shortly in flc's instagram page",
+        "Finite loop club registrations form in out now ,check in flc 's insta page",
+        "Registration links are open now,Please check in Finite loop club instagram page"
       ],
       "context_set": ""
     },
@@ -821,7 +865,9 @@
         "club registration when?"
       ],
       "responses": [
-        "  club registrations will be announced shortly in flc's instagram page"
+        "  club registrations will be announced shortly in the club's instagram page",
+        " Club registrations form in out now ,check in club's insta page",
+        "Registration links are open now,Please check in club instagram page"
       ],
       "context_set": ""
     },
@@ -836,10 +882,15 @@
         "ripple factor event",
         "rfc event",
         "rfc event when",
-        " at what time does the event start "
+        "at what time does the event start "
       ],
       "responses": [
-        " hey there,the event will be at student activity centre on saturday ,the event will start at break time  the event will get over soon "
+        "hey there,the event will be at student activity centre on saturday ,the event will start at break time  the event will get over soon ",
+        "HEY,the event will be at SAC on Thursday ,the event will start at break time  the event will get over soon ",
+        "The RFC event!,the event will be at SAC on Thursday ,the event will start at break time  the event will get over soon "
+        
+        
+        
       ],
       "context_set": ""
     },
@@ -890,12 +941,15 @@
         "very good thank you",
         "well thank you",
         "well thanks",
+        "tq",
+        "thankq",
         "you helped a lot thank you"
       ],
       "responses": [
         "no problem, thats what I am meant for",
         "if you like me, please provide a feedback",
-        "Thanks, you are also quite awesome"
+        "Thanks, you are also quite awesome",
+        "So glad i could be of some help "
       ],
       
       "context_set": ""
