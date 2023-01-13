@@ -215,7 +215,7 @@
         "BE ppt ",
          "mse1 notes",
         "mse2 notes",
-        "see notes",
+        "see notes"
       ],
       "responses": [
         " here you go,BASIC ELECTRONICS notes from unit 1-3 https://igitsarang.ac.in/assets/documents/coursematerial/basic_electronics_note-2nd_sesmester_btech_compressed_1589976528.pdf"
@@ -230,7 +230,7 @@
         " mse 1 question papers ",
         " mse 2 question papers ",
         " see question papers ",
-        "prev qp",
+        "prev qp"
       ],
       "responses": [
         "all the previous year question papers- https://nitte.tk/pages/questions.html"
@@ -247,7 +247,7 @@
         "qn bank",
         "be qn bank",
         "chem qn bank",
-        "phy qn bank",
+        "phy qn bank"
       ],
       "responses": [
         "The question bank's u require are right here- https://nitte.tk/pages/questions.html"
@@ -267,12 +267,12 @@
         "phy exam date",
         "phy exam when",
         "when is physics exam",
-        "when is physics exam",
+        "when is physics exam"
       ],
       "responses": [
         "here are the dates :",
         "the dates are",
-        "these are the dates",
+        "these are the dates"
       ],
       "context_set": ""
     },
@@ -300,7 +300,7 @@
       "responses": [
         "Here you go, http://guru.nmamit.in/ ",
         "There you go - http://guru.nmamit.in/",
-        "there it is- http://guru.nmamit.in/",
+        "there it is- http://guru.nmamit.in/"
       ],
       "contexts_set":""
     },
@@ -324,7 +324,7 @@
         "What events are being organised?" ,
         "How many technical events are going to happen this week?",
         "Can i get some information about current events happening?",
-        "What technical events are going to happen this week?",
+        "What technical events are going to happen this week?"
       ],
       "responses": [
         "3 technical events are going to happen this week,they are Robotech,Inquizitive and code relay",
@@ -730,6 +730,140 @@
       ],
       "context_set": ""
     },
+    {
+      "tag":"contact-details-chem-chemistry-lecture-phonenumber",
+      "patterns":[
+        "can anyone send phone number of chemistry sir?",
+        "can anyone send chem sir phone number?",
+        "chem sir no pls?",
+        "chemistry sir number please?",
+        "chemistry sir no anyone have ?",
+        "Ramesh sir number ?",
+        "do anyone have chemistry sir contact details?",
+        "contact details of chem please?",
+        "chem sir number?",
+        "can I get chem sir no?"
+      
+      ],
+      "responses":[
+        "chemistry Ramesh sir number-9433772211",
+        "Yes you can,here is what you want-9433772211",
+        "9433772211",
+        "Take-9433772211"
+      ],
+      "context_set":""
+    },
+    {
+      "tag":"contact-details-cpp-c-lecture-phonenumber",
+      "patterns":[
+        "can anyone send phone number of cpp mam?",
+        "cpp mam no pls?",
+        "cpp mam number please?",
+        "cpp mam no anyone have ?",
+        "Kavitha mam number ?",
+        "do anyone have cpp mam contact details?",
+        "contact details of cpp mam please?",
+        " cpp mam number?",
+        "can I get cpp mam no?"
+      
+      ],
+      "responses":[
+        "cpp mam number-9433662211",
+        "Yes you can,here is what you want-9433662211",
+        "Shruthi mam-9433662211"
+      ],
+      "context_set":""
+    },
+    {
+      "tag":"contact-details-basicelectronics-elecronics-lecture-phonenumber",
+      "patterns":[
+        "can anyone send phone number of basic electronics mam?",
+        "can anyone send electronics phone number?",
+        "electroincs mam no pls?",
+        "electroincs mam number please?",
+        "basic electronics mam no anyone have ?",
+        "Ramya mam number ?",
+        "do anyone have electronics mam contact details?",
+        "contact details of basic electroincs mam please?",
+        "electronics mam number?",
+        "can I get basic electroincs no?",
+        "can I get electronics mam number?"
+      
+      ],
+      "responses":[
+         "basic electronics- Ramya mam number-9422772211",
+          "Yes you can,here is what you want-9422772211",
+        "Ramya mam-9422772211"
+           ],
+      "context_set":""
+    },
+     {
+      "tag":"contact-details-maths-number",
+      "patterns":[
+        "can anyone send phone number of maths mam?",
+        "can anyone send mathematics mam phone number?",
+        "mathz mam no pls?",
+        "maths mam number please?",
+        "mathz mam no anyone have ?",
+        "Bhavya mam number ?",
+        "do anyone have maths mam contact details?",
+        "contact details of maths please?",
+        "maths mam number?",
+        "can I get  mathematics mam no?"
+      
+      ],
+      "responses":[
+        "Maths-Bhavya mam number-9936729341",
+         "Yes you can,here is what you want-9936729341",
+        "9936729341"
+      ],
+      "context_set":""
+    },
+     {
+      "tag":"contact-details-no-number",
+      "patterns":[
+        "can anyone send phone number of english mam?",
+        "can anyone send eng mam phone number?",
+        "engliz mam no pls?",
+        "english mam number please?",
+        "eng mam no anyone have ?",
+        "Sudheepa mam number ?",
+        "do anyone have english mam contact details?",
+        "contact details of eng please?",
+        "english mam number?",
+        "can I get engliz mam no?"
+      
+      ],
+      "responses":[
+        "English Sudheepa mam number-9936928341",
+        "Yes you can,here is what you want-9936928341",
+        "Sudheepa mam-9936928341"
+      ],
+      "context_set":""
+    },
+  {
+      "tag":"contact-details-bio-no-number",
+      "patterns":[
+        "can anyone send phone number of bio sir?",
+        "can anyone send biology sir phone number?",
+        "bio sir no pls?",
+        "biology sir number please?",
+        "bio sir no anyone have ?",
+        "Arman sir number ?",
+        "do anyone have bio sir contact details?",
+        "contact details of biology sir please?",
+        "bio sir number?",
+        "can I get biology sir no?"
+      
+      ],
+      "responses":[
+       "Biology Arman sir number-9923928341",
+       "Yes you can,here is what you want-9923928341",
+       "Arman sir -9923928341"
+      ],
+      "context_set":""
+    },
+  
     {
       "tag": "java-script-mastery",
       "patterns": [
