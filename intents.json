@@ -5,6 +5,10 @@
       "patterns": [
         "Hi",
         "hey",
+        "hy",
+        "hyyy",
+        "heyy",
+        "hiii",
         "Hello",
         "Hey there",
         "hello",
@@ -39,7 +43,7 @@
       ],
       "context_set": " "
     },
-    {
+      {
       "tag":"goodbye",
       "patterns": [
         "bye",
@@ -162,6 +166,9 @@
         " mse 2 physics notes please ",
         " see physics notes please ",
         "physics notes",
+        " mse 1 physics notes  ",
+        " mse 2 physics notes  ",
+        " see physics notes  ",
         "physics ppt",
         " physics unit 1 ",
         " physics unit 2 ",
@@ -223,9 +230,23 @@
       "context_set": ""
     },
     {
+      "tag":"see-notes",
+      "patterns": [
+        "see exam material",
+         "sem end exam notes",
+        "see portion",
+        "see notes"
+      ],
+      "responses": [
+        "Yup, here you go,BASIC ELECTRONICS notes from unit 1-3 https://igitsarang.ac.in/assets/documents/coursematerial/basic_electronics_note-2nd_sesmester_btech_compressed_1589976528.pdf and,chemistry notes from unit 1-5 https://www.iare.ac.in/sites/default/files/lecture_notes/EC-Lecture%20Notes_7.pdf and,-physics notes pdf from unit1-3 https://www.griet.ac.in/nodes/Engineering%20Physics%20Notes.pdf"
+      ],
+      "context_set": ""
+    },
+    {
       "tag":"previous-year-question-papers",
       "patterns": [
         "previous year question papers",
+        "previous year qp",
         "last year question paper ",
         " mse 1 question papers ",
         " mse 2 question papers ",
@@ -306,7 +327,7 @@
     },
    
     {
-      "tag": "information-of-events",
+      "tag": "question-bank",
       "patterns": [
         "Can i get some information about current events happening?",
         "What technical events are going to happen this week?",
@@ -359,7 +380,7 @@
         "Robotech is a quiz competition which is being organised by Robotics club.Here's the link to join the event :https://docs.google.com/forms/d/e/1FAIpQLScn-B5Kh4vWnTKa9NAAq25rFSeI4LFO99pVIxo5KD3Yaawk-g/viewform?usp=sf_link ",
         "A fun quiz competition which is being organised by Robotics club.Here's the link to join the event :https://docs.google.com/forms/d/e/1FAIpQLScn-B5Kh4vWnTKa9NAAq25rFSeI4LFO99pVIxo5KD3Yaawk-g/viewform?usp=sf_link",
         "A fun quiz competition which is being organised by Robotics club.follow robotics club insta page for more updates and info",
-        "Robotech is a quiz competition which is being organised        on 19.01.2023 by Robotics club.Here's the link to join the event: https://docs.google.com/forms/d/e/1FAIpQLScn-B5Kh4vWnTKa9NAAq25rFSeI4LFO99pVIxo5KD3Yaawk-g/viewform?usp=sf_link"
+        "Robotech is a quiz competition which is being organised  on 19.01.2023 by Robotics club.Here's the link to join the event: https://docs.google.com/forms/d/e/1FAIpQLScn-B5Kh4vWnTKa9NAAq25rFSeI4LFO99pVIxo5KD3Yaawk-g/viewform?usp=sf_link"
         
       ],
       "context_set": ""
@@ -412,7 +433,7 @@
         "I want to join coderelay"
       ],
       "responses": [
-        "Code relay is a coding competition organised by AI Autocrats.Here's the link to join the event - ",
+        "Code relay is a coding competition organised on 17.01.2023 by AI Autocrats.Here's the link to join the event - ",
         "Code relay is a coding competition organised on 17.01.2023  by AI Autocrats.Here's the link to join the event - https://forms.gle/tLaPGAHiVEgEkyUk8"
       ],
       "context_set": ""
@@ -421,13 +442,15 @@
       "tag":"time",
       "patterns":[
         "class timings?",
+         "class timings today?",
         "at what time class start?",
         "at what time class will end?",
         "break time?",
         "at what time lunch break will be?"
       ],
         "responses":[
-          "Everyday classes start at 9.00 am,break time is at 10.50am and lunch break starts at 1pm to 1.55pm and class will end 3.40pm."
+          "Everyday classes start at 9.00 am,break time is at 10.50am and lunch break starts at 1pm to 1.55pm and class will end 3.40pm.",
+          "classes always starts at 9.00am only but for more information you can check online classlink"
         ],
       "context_set": ""
     },
@@ -450,20 +473,7 @@
       ],
       "context_set": ""
     },
-    {
-      "tag": "time-of-class",
-      "patterns": [
-        "at what time class will start?",
-        "time of class",
-        "class timings",
-        "class time"
-        
-      ],
-      "responses": [
-        "classes always starts at 9.00am only but for more information you can check online classlink"
-      ],
-      "context_set": ""
-    },
+    
     {
       "tag": "who-handle-chemistry-class",
       "patterns": [
@@ -486,7 +496,7 @@
       "context_set": ""
     },
     {
-      "tag":"Maths-Math-mathematics-cls-class",
+      "tag":"Maths-class",
       "patterns":[
         "what about maths class?",
         "what about math class?",
@@ -525,7 +535,7 @@
          ],
         "responses":[
           "we have biology class once in a week and you can attend it whenever you wish,and you have to attend weekly quiz  and it is handled by Arman sir",
-          "Arman sir is handling bio today @ 2pm "
+          "Arman sir is handling bio today @ 2pm and you can attend it whenever you wish,and you have to attend weekly quiz  "
         ],
           "context_set": ""
     },
@@ -562,7 +572,7 @@
          "who will handle basicelectro class?",
         "is there electronics class today?",
          "is there BE class today?",
-          "is there basicelectro class today?",
+          "is there basicelectronics class today?",
         "who will handle electronics class?",
         "who will handle BE class?",
         "who will handle basicelectro class?"
@@ -576,7 +586,7 @@
       "context_set": ""
     },
     {
-      "tag":"english-eng-class-cls-engliz",
+      "tag":"english-engliz",
       "patterns":[
         "what about English class?",
         "what about eng class?",
@@ -605,7 +615,8 @@
       "responses": [
         "attendence will be there",
         "it is compulsory but if you don't want to attend don't :)"
-      ]
+      ],
+      "context_set":""
     },
     {
       "tag": "where-is-the-link-of-chemistry-class",
@@ -647,7 +658,7 @@
       
     },
     {
-       "tag":"link-of-eng-english-engliz-class",
+       "tag":"link-of-eng-english-class",
       "patterns":[
         "can you send link english class?",
          "where is the link of eng class?",
@@ -708,7 +719,7 @@
       "context_set": ""
     },
     {
-      "tag": "link-of-basic-electronics-class",
+      "tag": "link-of-eng-english-class",
       "patterns": [
         "can you send link BE class?",
         "BE class link",
@@ -779,8 +790,8 @@
       "patterns":[
         "can anyone send phone number of basic electronics mam?",
         "can anyone send electronics phone number?",
-        "electroincs mam no pls?",
-        "electroincs mam number please?",
+        "electronics mam no pls?",
+        "electronics mam number please?",
         "basic electronics mam no anyone have ?",
         "Ramya mam number ?",
         "do anyone have electronics mam contact details?",
@@ -820,7 +831,7 @@
       "context_set":""
     },
      {
-      "tag":"contact-details-no-number",
+      "tag":"contact-details-eng-number",
       "patterns":[
         "can anyone send phone number of english mam?",
         "can anyone send eng mam phone number?",
@@ -974,7 +985,8 @@
         "on what day basic electronics tasks or small assignments is conducted?",
         "when to submit basic electronics assignment?",
         "basic electronics assignment when?",
-        "what is basic electronics assignment topic?"
+        "what is basic electronics assignment topic?",
+        "be assignment topic and dates"
       ],
       "responses": [
         "topic is bjt and mosfets,submission of all small assignments  date is on 2 january 2023"
@@ -982,11 +994,13 @@
       "context_set": ""
     },
     {
-      "tag": "set-remainder",
+      "tag": "set-remainder-to",
       "patterns": [
         "remind me to do the event",
         "can you set a remainder for the event?",
-        "remind me to complete the event"
+        "remind me to complete the event",
+        "set a remainder for xyzabcd",
+        "remainder for abcxyz"
       ],
       "responses": [
         "sure why not",
@@ -997,10 +1011,11 @@
       "context_set": ""
     },
     {
-      "tag": "time-of-event",
+      "tag": "setted-remainder",
       "patterns": [
         "at what time will event start?",
         "at what time will event end?",
+        "event timings",
         "what are the timings of the event?",
         "can you give me the deadline for the event?"
       ],
@@ -1015,13 +1030,15 @@
       "patterns": [
         "is the remainder for the event set??",
         "i would like to confirm if the remainder for the event is set",
-        "can you confirm that the remainder is set for tomorrow?"
+        "can you confirm that the remainder is set for tomorrow?",
+        "is the remainder set",
+        "confirm remainder"
       ],
       "responses": [
         "Yes, the remainder is set for tomorrow",
         "the remainder for the event is set",
-        "failed to set remainder for the event. Try again",
-        "could'nt set remainder for the requested event. Please try again"
+        "All set for the event. ",
+        "yup remainder is set & ready to go"
       ],
       "context_set": ""
     },
@@ -1031,7 +1048,9 @@
         "will they extend the deadline?",
         "has the deadline been extended?",
         "is there any changes to the existing schedule?",
-        "are we still doing this project on 17 Dec?"
+        "are we still doing this project on 17 Dec?",
+        "any change in the schedule",
+        "any change in the remainder"
       ],
       "responses": [
         "there are no changes in the schedule",
@@ -1097,10 +1116,7 @@
         "hey there,the event will be at student activity centre on saturday ,the event will start at break time  the event will get over soon ",
         "HEY,the event will be at SAC on Thursday ,the event will start at break time  the event will get over soon ",
         "The RFC event!,the event will be at SAC on Thursday ,the event will start at break time  the event will get over soon "
-        
-        
-        
-      ],
+        ],
       "context_set": ""
     },
     {
